@@ -1,0 +1,9 @@
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Orion Constellation\Orion Constellation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Orion Constellation\Orion Constellation\obj\x86\Debug\Orion_Constellation.orionConstellationForm.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Orion Constellation\Orion Constellation\obj\x86\Debug\Orion_Constellation.Properties.Resources.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Orion Constellation\Orion Constellation\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Orion Constellation\Orion Constellation\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Orion Constellation\Orion Constellation\bin\Debug\Orion Constellation.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Orion Constellation\Orion Constellation\bin\Debug\Orion Constellation.pdb
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Orion Constellation\Orion Constellation\obj\x86\Debug\Orion Constellation.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Orion Constellation\Orion Constellation\obj\x86\Debug\Orion Constellation.pdb
