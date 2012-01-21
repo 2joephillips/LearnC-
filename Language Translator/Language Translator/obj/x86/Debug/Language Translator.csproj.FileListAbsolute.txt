@@ -1,0 +1,9 @@
+c:\users\joseph\documents\visual studio 2010\Projects\Language Translator\Language Translator\bin\Debug\Language Translator.exe
+c:\users\joseph\documents\visual studio 2010\Projects\Language Translator\Language Translator\bin\Debug\Language Translator.pdb
+c:\users\joseph\documents\visual studio 2010\Projects\Language Translator\Language Translator\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\joseph\documents\visual studio 2010\Projects\Language Translator\Language Translator\obj\x86\Debug\Language_Translator.Form1.resources
+c:\users\joseph\documents\visual studio 2010\Projects\Language Translator\Language Translator\obj\x86\Debug\Language_Translator.Properties.Resources.resources
+c:\users\joseph\documents\visual studio 2010\Projects\Language Translator\Language Translator\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\joseph\documents\visual studio 2010\Projects\Language Translator\Language Translator\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\joseph\documents\visual studio 2010\Projects\Language Translator\Language Translator\obj\x86\Debug\Language Translator.exe
+c:\users\joseph\documents\visual studio 2010\Projects\Language Translator\Language Translator\obj\x86\Debug\Language Translator.pdb
