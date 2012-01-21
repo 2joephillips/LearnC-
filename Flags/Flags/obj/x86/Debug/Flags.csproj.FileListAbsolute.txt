@@ -1,0 +1,9 @@
+c:\users\joseph\documents\visual studio 2010\Projects\Flags\Flags\bin\Debug\Flags.exe
+c:\users\joseph\documents\visual studio 2010\Projects\Flags\Flags\bin\Debug\Flags.pdb
+c:\users\joseph\documents\visual studio 2010\Projects\Flags\Flags\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\joseph\documents\visual studio 2010\Projects\Flags\Flags\obj\x86\Debug\Flags.Form1.resources
+c:\users\joseph\documents\visual studio 2010\Projects\Flags\Flags\obj\x86\Debug\Flags.Properties.Resources.resources
+c:\users\joseph\documents\visual studio 2010\Projects\Flags\Flags\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\joseph\documents\visual studio 2010\Projects\Flags\Flags\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\joseph\documents\visual studio 2010\Projects\Flags\Flags\obj\x86\Debug\Flags.exe
+c:\users\joseph\documents\visual studio 2010\Projects\Flags\Flags\obj\x86\Debug\Flags.pdb
