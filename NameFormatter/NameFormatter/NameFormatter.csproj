@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{70BBE40C-2622-4AEC-8ECA-C9AE1ED101AD}</ProjectGuid>
+    <ProjectGuid>{DB578EFB-0281-4EDA-8EB5-B6883CB0FD61}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Git_Test</RootNamespace>
-    <AssemblyName>Git Test</AssemblyName>
+    <RootNamespace>NameFormatter</RootNamespace>
+    <AssemblyName>NameFormatter</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

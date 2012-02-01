@@ -1,0 +1,9 @@
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\NameFormatter\NameFormatter\bin\Debug\NameFormatter.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\NameFormatter\NameFormatter\bin\Debug\NameFormatter.pdb
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\NameFormatter\NameFormatter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\NameFormatter\NameFormatter\obj\x86\Debug\NameFormatter.FrmNameFormatter.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\NameFormatter\NameFormatter\obj\x86\Debug\NameFormatter.Properties.Resources.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\NameFormatter\NameFormatter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\NameFormatter\NameFormatter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\NameFormatter\NameFormatter\obj\x86\Debug\NameFormatter.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\NameFormatter\NameFormatter\obj\x86\Debug\NameFormatter.pdb
