@@ -26,32 +26,38 @@ namespace NameFormatter
 
         private void btnFormat1_Click(object sender, EventArgs e)
         {
-            lblNameFormatter.Text = "1";
+            pullVariable();
+            lblNameFormatter.Text = Title + " " + FName + " " + MName + " " + LName;
         }
 
         private void btnFormat2_Click(object sender, EventArgs e)
         {
-            lblNameFormatter.Text = "2";
+            pullVariable();
+            lblNameFormatter.Text = FName + " " + MName + " " + LName;
         }
 
         private void btnFormat3_Click(object sender, EventArgs e)
         {
-            lblNameFormatter.Text = "3";
+            pullVariable();
+            lblNameFormatter.Text = FName + " " + LName;
         }
 
         private void btnFormat4_Click(object sender, EventArgs e)
         {
-            lblNameFormatter.Text = "4";
+            pullVariable();
+            lblNameFormatter.Text = LName + ", " + FName + " " + MName + ", " + Title;
         }
 
         private void btnFormat5_Click(object sender, EventArgs e)
         {
-            lblNameFormatter.Text = "5";
+            pullVariable();
+            lblNameFormatter.Text = LName + ", " + FName + " " + MName;
         }
         
         private void btnFormat6_Click(object sender, EventArgs e)
         {
-            lblNameFormatter.Text = "6";
+            pullVariable();
+            lblNameFormatter.Text = LName + ", " + FName;
         }
 
         private void pullVariable()

@@ -177,6 +177,7 @@
             this.lblNameFormatter.Name = "lblNameFormatter";
             this.lblNameFormatter.Size = new System.Drawing.Size(255, 31);
             this.lblNameFormatter.TabIndex = 17;
+            this.lblNameFormatter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnExit
             // 
