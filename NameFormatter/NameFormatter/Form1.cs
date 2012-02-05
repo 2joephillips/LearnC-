@@ -11,7 +11,7 @@ namespace NameFormatter
 {
     public partial class FrmNameFormatter : Form
     {
-           //Variables for application 
+           //Variables for Textboxes
         string FName, LName, MName,Title;
 
         public FrmNameFormatter()
