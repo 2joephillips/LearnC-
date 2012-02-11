@@ -1,0 +1,9 @@
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Birthdate String\Birthdate String\bin\Debug\Birthdate String.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Birthdate String\Birthdate String\bin\Debug\Birthdate String.pdb
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Birthdate String\Birthdate String\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Birthdate String\Birthdate String\obj\x86\Debug\Birthdate_String.BirthDateForm.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Birthdate String\Birthdate String\obj\x86\Debug\Birthdate_String.Properties.Resources.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Birthdate String\Birthdate String\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Birthdate String\Birthdate String\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Birthdate String\Birthdate String\obj\x86\Debug\Birthdate String.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Birthdate String\Birthdate String\obj\x86\Debug\Birthdate String.pdb
