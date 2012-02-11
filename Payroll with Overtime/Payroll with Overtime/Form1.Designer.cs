@@ -47,6 +47,7 @@
             this.exitButton.TabIndex = 26;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // clearButton
             // 
@@ -56,6 +57,7 @@
             this.clearButton.TabIndex = 25;
             this.clearButton.Text = "Clear";
             this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // calculateButton
             // 
@@ -65,6 +67,7 @@
             this.calculateButton.TabIndex = 24;
             this.calculateButton.Text = "Calculate Gross Pay";
             this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // grossPayLabel
             // 
