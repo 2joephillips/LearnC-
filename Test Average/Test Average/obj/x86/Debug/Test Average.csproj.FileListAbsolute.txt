@@ -1,0 +1,9 @@
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Test Average\Test Average\bin\Debug\Test Average.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Test Average\Test Average\bin\Debug\Test Average.pdb
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Test Average\Test Average\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Test Average\Test Average\obj\x86\Debug\Test_Average.Form1.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Test Average\Test Average\obj\x86\Debug\Test_Average.Properties.Resources.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Test Average\Test Average\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Test Average\Test Average\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Test Average\Test Average\obj\x86\Debug\Test Average.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Test Average\Test Average\obj\x86\Debug\Test Average.pdb

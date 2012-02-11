@@ -1,0 +1,9 @@
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Change Counter\Change Counter\bin\Debug\Change Counter.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Change Counter\Change Counter\bin\Debug\Change Counter.pdb
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Change Counter\Change Counter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Change Counter\Change Counter\obj\x86\Debug\Change_Counter.Form1.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Change Counter\Change Counter\obj\x86\Debug\Change_Counter.Properties.Resources.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Change Counter\Change Counter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Change Counter\Change Counter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Change Counter\Change Counter\obj\x86\Debug\Change Counter.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Change Counter\Change Counter\obj\x86\Debug\Change Counter.pdb
