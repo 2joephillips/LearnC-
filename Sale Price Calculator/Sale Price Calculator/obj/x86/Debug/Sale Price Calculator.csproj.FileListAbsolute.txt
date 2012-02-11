@@ -1,0 +1,9 @@
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Sale Price Calculator\Sale Price Calculator\bin\Debug\Sale Price Calculator.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Sale Price Calculator\Sale Price Calculator\bin\Debug\Sale Price Calculator.pdb
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Sale Price Calculator\Sale Price Calculator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Sale Price Calculator\Sale Price Calculator\obj\x86\Debug\Sale_Price_Calculator.Form1.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Sale Price Calculator\Sale Price Calculator\obj\x86\Debug\Sale_Price_Calculator.Properties.Resources.resources
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Sale Price Calculator\Sale Price Calculator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Sale Price Calculator\Sale Price Calculator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Sale Price Calculator\Sale Price Calculator\obj\x86\Debug\Sale Price Calculator.exe
+C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Sale Price Calculator\Sale Price Calculator\obj\x86\Debug\Sale Price Calculator.pdb
