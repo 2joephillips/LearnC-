@@ -1,0 +1,9 @@
+C:\Users\Joseph\Projects\Visual Studio c#\Payroll with Overtime\Payroll with Overtime\bin\Debug\Payroll with Overtime.exe
+C:\Users\Joseph\Projects\Visual Studio c#\Payroll with Overtime\Payroll with Overtime\bin\Debug\Payroll with Overtime.pdb
+C:\Users\Joseph\Projects\Visual Studio c#\Payroll with Overtime\Payroll with Overtime\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joseph\Projects\Visual Studio c#\Payroll with Overtime\Payroll with Overtime\obj\x86\Debug\Payroll_with_Overtime.Form1.resources
+C:\Users\Joseph\Projects\Visual Studio c#\Payroll with Overtime\Payroll with Overtime\obj\x86\Debug\Payroll_with_Overtime.Properties.Resources.resources
+C:\Users\Joseph\Projects\Visual Studio c#\Payroll with Overtime\Payroll with Overtime\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Joseph\Projects\Visual Studio c#\Payroll with Overtime\Payroll with Overtime\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Joseph\Projects\Visual Studio c#\Payroll with Overtime\Payroll with Overtime\obj\x86\Debug\Payroll with Overtime.exe
+C:\Users\Joseph\Projects\Visual Studio c#\Payroll with Overtime\Payroll with Overtime\obj\x86\Debug\Payroll with Overtime.pdb
