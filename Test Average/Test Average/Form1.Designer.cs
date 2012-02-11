@@ -39,12 +39,13 @@
             this.btnAverage = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(73, 17);
+            this.label1.Location = new System.Drawing.Point(77, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 0;
@@ -53,7 +54,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(73, 54);
+            this.label2.Location = new System.Drawing.Point(77, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 1;
@@ -62,7 +63,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(73, 91);
+            this.label3.Location = new System.Drawing.Point(77, 116);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 2;
@@ -70,21 +71,21 @@
             // 
             // txtbxTest1
             // 
-            this.txtbxTest1.Location = new System.Drawing.Point(119, 12);
+            this.txtbxTest1.Location = new System.Drawing.Point(123, 37);
             this.txtbxTest1.Name = "txtbxTest1";
             this.txtbxTest1.Size = new System.Drawing.Size(100, 20);
             this.txtbxTest1.TabIndex = 3;
             // 
             // txtbxTest2
             // 
-            this.txtbxTest2.Location = new System.Drawing.Point(119, 48);
+            this.txtbxTest2.Location = new System.Drawing.Point(123, 73);
             this.txtbxTest2.Name = "txtbxTest2";
             this.txtbxTest2.Size = new System.Drawing.Size(100, 20);
             this.txtbxTest2.TabIndex = 4;
             // 
             // txtbxTest3
             // 
-            this.txtbxTest3.Location = new System.Drawing.Point(119, 84);
+            this.txtbxTest3.Location = new System.Drawing.Point(123, 109);
             this.txtbxTest3.Name = "txtbxTest3";
             this.txtbxTest3.Size = new System.Drawing.Size(100, 20);
             this.txtbxTest3.TabIndex = 5;
@@ -92,7 +93,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 119);
+            this.label4.Location = new System.Drawing.Point(11, 144);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(105, 13);
             this.label4.TabIndex = 6;
@@ -101,16 +102,16 @@
             // lblAverage
             // 
             this.lblAverage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblAverage.Location = new System.Drawing.Point(109, 118);
+            this.lblAverage.Location = new System.Drawing.Point(113, 143);
             this.lblAverage.Name = "lblAverage";
             this.lblAverage.Size = new System.Drawing.Size(141, 23);
             this.lblAverage.TabIndex = 7;
             // 
             // btnAverage
             // 
-            this.btnAverage.Location = new System.Drawing.Point(9, 178);
+            this.btnAverage.Location = new System.Drawing.Point(51, 198);
             this.btnAverage.Name = "btnAverage";
-            this.btnAverage.Size = new System.Drawing.Size(75, 37);
+            this.btnAverage.Size = new System.Drawing.Size(75, 80);
             this.btnAverage.TabIndex = 8;
             this.btnAverage.Text = "Calculate Average";
             this.btnAverage.UseVisualStyleBackColor = true;
@@ -118,7 +119,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(92, 178);
+            this.btnClear.Location = new System.Drawing.Point(134, 198);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 37);
             this.btnClear.TabIndex = 9;
@@ -128,7 +129,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(175, 178);
+            this.btnExit.Location = new System.Drawing.Point(134, 241);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 37);
             this.btnExit.TabIndex = 10;
@@ -136,11 +137,20 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(5, 13);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(257, 168);
+            this.groupBox1.TabIndex = 11;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(263, 268);
+            this.ClientSize = new System.Drawing.Size(266, 290);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnAverage);
@@ -152,6 +162,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Test Average";
             this.ResumeLayout(false);
@@ -172,6 +183,7 @@
         private System.Windows.Forms.Button btnAverage;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 

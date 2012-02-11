@@ -20,6 +20,7 @@ namespace Test_Average
         {
             try
             {
+                const double High_Score = 95.0;
                 //Declare Variables
                 double test1, test2, test3, average;
                 test1 = double.Parse(txtbxTest1.Text);
@@ -32,6 +33,13 @@ namespace Test_Average
                 //Display the average test score.
                 // the output rounded to 1 decimal point
                 lblAverage.Text = average.ToString("n1");
+
+                //If the average is a high score, congratulate
+                //the user with message box.
+                if (average > High_Score)
+                {
+                    MessageBox.Show("Congratulations! Great job!");
+                }
             }
             catch (Exception ex)
             {
@@ -47,6 +55,9 @@ namespace Test_Average
             txtbxTest1.Text = "";
             txtbxTest2.Text = "";
             txtbxTest3.Text = "";
+
+            //Reset focus to txtbxTest1
+            txtbxTest1.Focus();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
