@@ -27,6 +27,7 @@ namespace Birthdate_String
 
             //Display output
             lblDateOutput.Text = output;
+
         }
 
         private void btnClear_Click(object sender, EventArgs e)
