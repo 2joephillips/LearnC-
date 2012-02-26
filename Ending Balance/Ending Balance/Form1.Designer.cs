@@ -37,6 +37,7 @@
             this.btnCalculate = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.lstbxDetail = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -91,7 +92,7 @@
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(19, 169);
+            this.btnCalculate.Location = new System.Drawing.Point(16, 358);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
             this.btnCalculate.TabIndex = 3;
@@ -101,7 +102,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(108, 169);
+            this.btnClear.Location = new System.Drawing.Point(105, 358);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 4;
@@ -111,7 +112,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(197, 169);
+            this.btnExit.Location = new System.Drawing.Point(194, 358);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 5;
@@ -119,11 +120,20 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // lstbxDetail
+            // 
+            this.lstbxDetail.FormattingEnabled = true;
+            this.lstbxDetail.Location = new System.Drawing.Point(16, 172);
+            this.lstbxDetail.Name = "lstbxDetail";
+            this.lstbxDetail.Size = new System.Drawing.Size(245, 173);
+            this.lstbxDetail.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 234);
+            this.ClientSize = new System.Drawing.Size(284, 405);
+            this.Controls.Add(this.lstbxDetail);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCalculate);
@@ -151,6 +161,7 @@
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.ListBox lstbxDetail;
     }
 }
 

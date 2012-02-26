@@ -29,6 +29,7 @@ namespace Ending_Balance
             lblEndingBalance.Text = "";
             txtbxNumberOfMonths.Text = "";
             txtbxStartingBalance.Text = "";
+            lstbxDetail.Items.Clear();
 
             //Set Focus
             txtbxStartingBalance.Focus();
@@ -54,6 +55,7 @@ namespace Ending_Balance
                     while (count <= months)
                     {
                         balance = balance + (INTEREST_RATE * balance);
+                        lstbxDetail.Items.Add("The ending balance for month " + count.ToString() + " is " + balance.ToString("c"));
                         count = count + 1;
                     }
 
