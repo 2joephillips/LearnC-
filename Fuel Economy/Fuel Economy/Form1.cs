@@ -24,17 +24,29 @@ namespace Fuel_Economy
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            // declare variables for miles, gallons, mpg
-            double mpg, gallons, miles;
+            //Input Variables
+            double miles = 0;
+            double gallons = 0;
 
-            //Assign values
-            gallons = double.Parse(txtGallons.Text);
-            miles = double.Parse(txtMiles.Text);
-            // Calculate MPG
-            mpg = miles / gallons;
+            //Output Variables
+            double mpg = 0;
 
-            //Display MPG in Lable
-            lblMPG.Text = mpg.ToString();
+            if (double.TryParse(txtMiles.Text, out miles))
+            {
+                if (double.TryParse(txtGallons.Text, out gallons))
+                {
+                    mpg = miles / gallons;
+                    lblMPG.Text = mpg.ToString("n1");
+                }
+                else
+                {
+                    MessageBox.Show("Invalid input for gallons.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Invalid input for miles.");
+            }
         }
-    }
+        }
 }

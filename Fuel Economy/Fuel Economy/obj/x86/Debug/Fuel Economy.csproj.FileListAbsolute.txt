@@ -7,3 +7,12 @@ C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Fuel Economy\Fuel Economy\obj\
 C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Fuel Economy\Fuel Economy\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Fuel Economy\Fuel Economy\obj\x86\Debug\Fuel Economy.exe
 C:\Users\Joseph\Dropbox\Projects\Visual Studio c#\Fuel Economy\Fuel Economy\obj\x86\Debug\Fuel Economy.pdb
+C:\Users\Phillips\Visual-Studio-C-\Fuel Economy\Fuel Economy\obj\x86\Debug\Fuel Economy.exe
+C:\Users\Phillips\Visual-Studio-C-\Fuel Economy\Fuel Economy\obj\x86\Debug\Fuel Economy.pdb
+C:\Users\Phillips\Visual-Studio-C-\Fuel Economy\Fuel Economy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Fuel Economy\Fuel Economy\obj\x86\Debug\Fuel_Economy.frmFuelEconomy.resources
+C:\Users\Phillips\Visual-Studio-C-\Fuel Economy\Fuel Economy\obj\x86\Debug\Fuel_Economy.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Fuel Economy\Fuel Economy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Fuel Economy\Fuel Economy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Fuel Economy\Fuel Economy\bin\Debug\Fuel Economy.exe
+C:\Users\Phillips\Visual-Studio-C-\Fuel Economy\Fuel Economy\bin\Debug\Fuel Economy.pdb

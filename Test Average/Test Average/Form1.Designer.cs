@@ -74,21 +74,21 @@
             this.txtbxTest1.Location = new System.Drawing.Point(123, 37);
             this.txtbxTest1.Name = "txtbxTest1";
             this.txtbxTest1.Size = new System.Drawing.Size(100, 20);
-            this.txtbxTest1.TabIndex = 3;
+            this.txtbxTest1.TabIndex = 0;
             // 
             // txtbxTest2
             // 
             this.txtbxTest2.Location = new System.Drawing.Point(123, 73);
             this.txtbxTest2.Name = "txtbxTest2";
             this.txtbxTest2.Size = new System.Drawing.Size(100, 20);
-            this.txtbxTest2.TabIndex = 4;
+            this.txtbxTest2.TabIndex = 1;
             // 
             // txtbxTest3
             // 
             this.txtbxTest3.Location = new System.Drawing.Point(123, 109);
             this.txtbxTest3.Name = "txtbxTest3";
             this.txtbxTest3.Size = new System.Drawing.Size(100, 20);
-            this.txtbxTest3.TabIndex = 5;
+            this.txtbxTest3.TabIndex = 2;
             // 
             // label4
             // 
@@ -105,14 +105,14 @@
             this.lblAverage.Location = new System.Drawing.Point(113, 143);
             this.lblAverage.Name = "lblAverage";
             this.lblAverage.Size = new System.Drawing.Size(141, 23);
-            this.lblAverage.TabIndex = 7;
+            this.lblAverage.TabIndex = 3;
             // 
             // btnAverage
             // 
             this.btnAverage.Location = new System.Drawing.Point(51, 198);
             this.btnAverage.Name = "btnAverage";
             this.btnAverage.Size = new System.Drawing.Size(75, 80);
-            this.btnAverage.TabIndex = 8;
+            this.btnAverage.TabIndex = 4;
             this.btnAverage.Text = "Calculate Average";
             this.btnAverage.UseVisualStyleBackColor = true;
             this.btnAverage.Click += new System.EventHandler(this.btnAverage_Click);
@@ -122,7 +122,7 @@
             this.btnClear.Location = new System.Drawing.Point(134, 198);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 37);
-            this.btnClear.TabIndex = 9;
+            this.btnClear.TabIndex = 5;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -132,7 +132,7 @@
             this.btnExit.Location = new System.Drawing.Point(134, 241);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 37);
-            this.btnExit.TabIndex = 10;
+            this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);

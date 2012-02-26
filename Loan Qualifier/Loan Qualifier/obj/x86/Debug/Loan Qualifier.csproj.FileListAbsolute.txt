@@ -16,3 +16,5 @@ C:\Users\Joseph\Projects\Visual Studio c#\Loan Qualifier\Loan Qualifier\obj\x86\
 C:\Users\Joseph\Projects\Visual Studio c#\Loan Qualifier\Loan Qualifier\obj\x86\Debug\Loan_Qualifier.Properties.Resources.resources
 C:\Users\Joseph\Projects\Visual Studio c#\Loan Qualifier\Loan Qualifier\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Joseph\Projects\Visual Studio c#\Loan Qualifier\Loan Qualifier\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Loan Qualifier\Loan Qualifier\obj\x86\Debug\Loan Qualifier.exe
+C:\Users\Phillips\Visual-Studio-C-\Loan Qualifier\Loan Qualifier\obj\x86\Debug\Loan Qualifier.pdb
