@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Time Zone\Time Zone\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Time Zone\Time Zone\obj\x86\Debug\Time_Zone.frmTimeZone.resources
+C:\Users\Phillips\Visual-Studio-C-\Time Zone\Time Zone\obj\x86\Debug\Time_Zone.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Time Zone\Time Zone\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Time Zone\Time Zone\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Time Zone\Time Zone\bin\Debug\Time Zone.exe
+C:\Users\Phillips\Visual-Studio-C-\Time Zone\Time Zone\bin\Debug\Time Zone.pdb
+C:\Users\Phillips\Visual-Studio-C-\Time Zone\Time Zone\obj\x86\Debug\Time Zone.exe
+C:\Users\Phillips\Visual-Studio-C-\Time Zone\Time Zone\obj\x86\Debug\Time Zone.pdb
