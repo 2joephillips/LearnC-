@@ -45,10 +45,10 @@ namespace Ending_Balance
             int count = 1;
 
             //Get the starting balance
-            if (int.TryParse(txtbxStartingBalance.Text, out months))
+            if (decimal.TryParse(txtbxStartingBalance.Text, out balance))
             {
                 //Get the number of months
-                if (decimal.TryParse(txtbxNumberOfMonths.Text,out balance))
+                if (int.TryParse(txtbxNumberOfMonths.Text,out months))
                 {
                  //Loop to calculate ending balance
                     while (count <= months)
@@ -58,7 +58,7 @@ namespace Ending_Balance
                     }
 
                     //Display the ending balance
-                    lblEndingBalance.Text = balance.ToString();
+                    lblEndingBalance.Text = balance.ToString("c");
                 }
                 else
                 {

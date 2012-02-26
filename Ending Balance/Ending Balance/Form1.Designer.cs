@@ -45,7 +45,7 @@
             this.label1.Location = new System.Drawing.Point(22, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 13);
-            this.label1.TabIndex = 0;
+            this.label1.TabIndex = 6;
             this.label1.Text = "Starting Balance";
             // 
             // label2
@@ -54,7 +54,7 @@
             this.label2.Location = new System.Drawing.Point(13, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 13);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 7;
             this.label2.Text = "Number of Months";
             // 
             // label3
@@ -63,7 +63,7 @@
             this.label3.Location = new System.Drawing.Point(25, 124);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 13);
-            this.label3.TabIndex = 2;
+            this.label3.TabIndex = 8;
             this.label3.Text = "Ending Balance";
             // 
             // txtbxNumberOfMonths
@@ -71,14 +71,14 @@
             this.txtbxNumberOfMonths.Location = new System.Drawing.Point(113, 79);
             this.txtbxNumberOfMonths.Name = "txtbxNumberOfMonths";
             this.txtbxNumberOfMonths.Size = new System.Drawing.Size(100, 20);
-            this.txtbxNumberOfMonths.TabIndex = 4;
+            this.txtbxNumberOfMonths.TabIndex = 1;
             // 
             // txtbxStartingBalance
             // 
             this.txtbxStartingBalance.Location = new System.Drawing.Point(113, 34);
             this.txtbxStartingBalance.Name = "txtbxStartingBalance";
             this.txtbxStartingBalance.Size = new System.Drawing.Size(100, 20);
-            this.txtbxStartingBalance.TabIndex = 5;
+            this.txtbxStartingBalance.TabIndex = 0;
             // 
             // lblEndingBalance
             // 
@@ -86,7 +86,7 @@
             this.lblEndingBalance.Location = new System.Drawing.Point(113, 124);
             this.lblEndingBalance.Name = "lblEndingBalance";
             this.lblEndingBalance.Size = new System.Drawing.Size(100, 23);
-            this.lblEndingBalance.TabIndex = 6;
+            this.lblEndingBalance.TabIndex = 2;
             this.lblEndingBalance.Text = " ";
             // 
             // btnCalculate
@@ -94,7 +94,7 @@
             this.btnCalculate.Location = new System.Drawing.Point(19, 169);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
-            this.btnCalculate.TabIndex = 7;
+            this.btnCalculate.TabIndex = 3;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
@@ -104,7 +104,7 @@
             this.btnClear.Location = new System.Drawing.Point(108, 169);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
-            this.btnClear.TabIndex = 8;
+            this.btnClear.TabIndex = 4;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -114,7 +114,7 @@
             this.btnExit.Location = new System.Drawing.Point(197, 169);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
-            this.btnExit.TabIndex = 9;
+            this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
