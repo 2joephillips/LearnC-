@@ -36,12 +36,41 @@ namespace Ending_Balance
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            //Variables of Inputs
-            int NumberOfMonths = int.TryParse(txtbxNumberOfMonths.Text);
-            decimal StartingBalance = 0;  
-            
+            //Constant Monthly Interest Rates
+            const decimal INTEREST_RATE = 0.005M;
 
+            //Local Variables       
+            decimal balance;
+            int months;
+            int count = 1;
 
+            //Get the starting balance
+            if (int.TryParse(txtbxStartingBalance.Text, out months))
+            {
+                //Get the number of months
+                if (decimal.TryParse(txtbxNumberOfMonths.Text,out balance))
+                {
+                 //Loop to calculate ending balance
+                    while (count <= months)
+                    {
+                        balance = balance + (INTEREST_RATE * balance);
+                        count = count + 1;
+                    }
+
+                    //Display the ending balance
+                    lblEndingBalance.Text = balance.ToString();
+                }
+                else
+                {
+                    //Invalid number of months
+                    MessageBox.Show("Invalid number of months.");
+                }
+            }
+            else
+            {
+                //Invalid balance
+                MessageBox.Show("Invalid value for starting balance.");
+            }
         }
 
     }
