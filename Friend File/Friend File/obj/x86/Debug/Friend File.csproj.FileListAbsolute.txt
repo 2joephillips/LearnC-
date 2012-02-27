@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Friend File\Friend File\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Friend File\Friend File\obj\x86\Debug\Friend_File.FrmFriendFile.resources
+C:\Users\Phillips\Visual-Studio-C-\Friend File\Friend File\obj\x86\Debug\Friend_File.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Friend File\Friend File\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Friend File\Friend File\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Friend File\Friend File\bin\Debug\Friend File.exe
+C:\Users\Phillips\Visual-Studio-C-\Friend File\Friend File\bin\Debug\Friend File.pdb
+C:\Users\Phillips\Visual-Studio-C-\Friend File\Friend File\obj\x86\Debug\Friend File.exe
+C:\Users\Phillips\Visual-Studio-C-\Friend File\Friend File\obj\x86\Debug\Friend File.pdb
