@@ -30,8 +30,8 @@ namespace Friend_File
                 //Declare a Streamwriter Variable
                 StreamWriter outputfile;
 
-                //Create a file and get a StreamWriter Object
-                outputfile = File.CreateText("Friend.txt");
+                //Append a file and get a StreamWriter Object
+                outputfile = File.AppendText("Friend.txt");
 
                 //Write Name to file
                 outputfile.WriteLine(txtbxName.Text);
@@ -41,6 +41,12 @@ namespace Friend_File
 
                 //Show item was added to file
                 MessageBox.Show("The name was written.");
+
+                //Clear the txtbxName
+                txtbxName.Clear();
+
+                //Setfocus on txtbxName
+                txtbxName.Focus();
 
             }
             catch (Exception ex)
