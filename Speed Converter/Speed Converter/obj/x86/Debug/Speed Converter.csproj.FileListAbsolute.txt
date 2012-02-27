@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Speed Converter\Speed Converter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Speed Converter\Speed Converter\obj\x86\Debug\Speed_Converter.frmSpeedConvertor.resources
+C:\Users\Phillips\Visual-Studio-C-\Speed Converter\Speed Converter\obj\x86\Debug\Speed_Converter.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Speed Converter\Speed Converter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Speed Converter\Speed Converter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Speed Converter\Speed Converter\bin\Debug\Speed Converter.exe
+C:\Users\Phillips\Visual-Studio-C-\Speed Converter\Speed Converter\bin\Debug\Speed Converter.pdb
+C:\Users\Phillips\Visual-Studio-C-\Speed Converter\Speed Converter\obj\x86\Debug\Speed Converter.exe
+C:\Users\Phillips\Visual-Studio-C-\Speed Converter\Speed Converter\obj\x86\Debug\Speed Converter.pdb
