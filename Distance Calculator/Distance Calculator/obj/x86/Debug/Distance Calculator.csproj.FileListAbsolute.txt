@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Distance Calculator\Distance Calculator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Distance Calculator\Distance Calculator\obj\x86\Debug\Distance_Calculator.frmDistanceCalculator.resources
+C:\Users\Phillips\Visual-Studio-C-\Distance Calculator\Distance Calculator\obj\x86\Debug\Distance_Calculator.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Distance Calculator\Distance Calculator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Distance Calculator\Distance Calculator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Distance Calculator\Distance Calculator\bin\Debug\Distance Calculator.exe
+C:\Users\Phillips\Visual-Studio-C-\Distance Calculator\Distance Calculator\bin\Debug\Distance Calculator.pdb
+C:\Users\Phillips\Visual-Studio-C-\Distance Calculator\Distance Calculator\obj\x86\Debug\Distance Calculator.exe
+C:\Users\Phillips\Visual-Studio-C-\Distance Calculator\Distance Calculator\obj\x86\Debug\Distance Calculator.pdb
