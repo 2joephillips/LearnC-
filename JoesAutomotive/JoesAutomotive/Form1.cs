@@ -20,9 +20,9 @@ using System.Windows.Forms;
 
 namespace JoesAutomotive
 {
-    public partial class Form1 : Form
+    public partial class frmAutomotive : Form
     {
-        public Form1()
+        public frmAutomotive()
         {
             InitializeComponent();
         }
@@ -127,7 +127,7 @@ namespace JoesAutomotive
                 //Assign Total Fees to Lable
                 lblTotalFees.Text = TotalCharges(oilLubeCharges, flushCharges, miscCharges, otherCharges, taxCharges);
              }
-            // Inavalid input in textboxes following message will show
+            // Invalid input in textboxes following message will show
             else
             {
                 MessageBox.Show("Check values in Labor and Parts field.");
@@ -191,7 +191,7 @@ namespace JoesAutomotive
         /// <returns></returns>
         private double TaxCharges()
         {
-            const double TAXRATE = .6; 
+            const double TAXRATE = .06; 
             double partCosts = 0 ;
             if(!string.IsNullOrWhiteSpace(txtbxParts.Text))
             partCosts = double.Parse(txtbxParts.Text);

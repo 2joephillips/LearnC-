@@ -1,9 +1,9 @@
 C:\Users\Phillips\Visual-Studio-C-\JoesAutomotive\JoesAutomotive\bin\Debug\JoesAutomotive.exe
 C:\Users\Phillips\Visual-Studio-C-\JoesAutomotive\JoesAutomotive\bin\Debug\JoesAutomotive.pdb
 C:\Users\Phillips\Visual-Studio-C-\JoesAutomotive\JoesAutomotive\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Phillips\Visual-Studio-C-\JoesAutomotive\JoesAutomotive\obj\x86\Debug\JoesAutomotive.Form1.resources
 C:\Users\Phillips\Visual-Studio-C-\JoesAutomotive\JoesAutomotive\obj\x86\Debug\JoesAutomotive.Properties.Resources.resources
 C:\Users\Phillips\Visual-Studio-C-\JoesAutomotive\JoesAutomotive\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Phillips\Visual-Studio-C-\JoesAutomotive\JoesAutomotive\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Phillips\Visual-Studio-C-\JoesAutomotive\JoesAutomotive\obj\x86\Debug\JoesAutomotive.exe
 C:\Users\Phillips\Visual-Studio-C-\JoesAutomotive\JoesAutomotive\obj\x86\Debug\JoesAutomotive.pdb
+C:\Users\Phillips\Visual-Studio-C-\JoesAutomotive\JoesAutomotive\obj\x86\Debug\JoesAutomotive.frmAutomotive.resources

@@ -1,6 +1,6 @@
 ﻿namespace JoesAutomotive
 {
-    partial class Form1
+    partial class frmAutomotive
     {
         /// <summary>
         /// Required designer variable.
@@ -333,7 +333,7 @@
             this.btnCalculateTotal.UseVisualStyleBackColor = true;
             this.btnCalculateTotal.Click += new System.EventHandler(this.btnCalculateTotal_Click);
             // 
-            // Form1
+            // frmAutomotive
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -346,7 +346,7 @@
             this.Controls.Add(this.grpbxMisc);
             this.Controls.Add(this.grpbxFlushes);
             this.Controls.Add(this.grpbxOil_Lube);
-            this.Name = "Form1";
+            this.Name = "frmAutomotive";
             this.Text = "Automotive";
             this.grpbxOil_Lube.ResumeLayout(false);
             this.grpbxOil_Lube.PerformLayout();
