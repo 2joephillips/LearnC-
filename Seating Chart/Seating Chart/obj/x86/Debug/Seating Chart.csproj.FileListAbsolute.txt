@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Seating Chart\Seating Chart\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Seating Chart\Seating Chart\obj\x86\Debug\Seating_Chart.Form1.resources
+C:\Users\Phillips\Visual-Studio-C-\Seating Chart\Seating Chart\obj\x86\Debug\Seating_Chart.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Seating Chart\Seating Chart\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Seating Chart\Seating Chart\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Seating Chart\Seating Chart\bin\Debug\Seating Chart.exe
+C:\Users\Phillips\Visual-Studio-C-\Seating Chart\Seating Chart\bin\Debug\Seating Chart.pdb
+C:\Users\Phillips\Visual-Studio-C-\Seating Chart\Seating Chart\obj\x86\Debug\Seating Chart.exe
+C:\Users\Phillips\Visual-Studio-C-\Seating Chart\Seating Chart\obj\x86\Debug\Seating Chart.pdb
