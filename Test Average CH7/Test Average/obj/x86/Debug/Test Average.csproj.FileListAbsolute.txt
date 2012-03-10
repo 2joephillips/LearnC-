@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\bin\Debug\Test Average.exe
+C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\bin\Debug\Test Average.pdb
+C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\Test_Average.Form1.resources
+C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\Test_Average.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\Test Average.exe
+C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\Test Average.pdb
