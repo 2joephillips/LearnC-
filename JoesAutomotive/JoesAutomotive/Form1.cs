@@ -47,7 +47,7 @@ namespace JoesAutomotive
        /// This clears all textboxes and checkboxes from a Option Group 
        /// </summary>
        /// <param name="parent"></param>
-        public void ClearCheckBoxAndTextBoxConrols(Control parent)
+        public void ClearCheckBoxAndTextBoxControls(Control parent)
         {
            //Loops there all the controls within a groupbox revewing each control
             foreach (Control control in parent.Controls)
@@ -70,7 +70,7 @@ namespace JoesAutomotive
         /// </summary>
         private void ClearOilLube()
         {
-            ClearCheckBoxAndTextBoxConrols(grpbxOil_Lube);
+            ClearCheckBoxAndTextBoxControls(grpbxOil_Lube);
         }
 
        /// <summary>
@@ -78,7 +78,7 @@ namespace JoesAutomotive
        /// </summary>
         private void ClearFlushes()
         {
-            ClearCheckBoxAndTextBoxConrols(grpbxFlushes);
+            ClearCheckBoxAndTextBoxControls(grpbxFlushes);
         }
 
         /// <summary>
@@ -86,7 +86,7 @@ namespace JoesAutomotive
         /// </summary>
         private void ClearMisc()
         {
-            ClearCheckBoxAndTextBoxConrols(grpbxMisc);
+            ClearCheckBoxAndTextBoxControls(grpbxMisc);
         }
 
         /// <summary>
@@ -94,7 +94,7 @@ namespace JoesAutomotive
         /// </summary>
         private void ClearOther()
         {
-            ClearCheckBoxAndTextBoxConrols(grpbxParts_Labor);
+            ClearCheckBoxAndTextBoxControls(grpbxParts_Labor);
         }
 
         /// <summary>
@@ -309,6 +309,6 @@ namespace JoesAutomotive
             }
 
             return charges;
-        }     
+        }    
     }
 }

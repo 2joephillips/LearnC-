@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\North America\North America\bin\Debug\North America.exe
+C:\Users\Phillips\Visual-Studio-C-\North America\North America\bin\Debug\North America.pdb
+C:\Users\Phillips\Visual-Studio-C-\North America\North America\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\North America\North America\obj\x86\Debug\North_America.Form1.resources
+C:\Users\Phillips\Visual-Studio-C-\North America\North America\obj\x86\Debug\North_America.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\North America\North America\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\North America\North America\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\North America\North America\obj\x86\Debug\North America.exe
+C:\Users\Phillips\Visual-Studio-C-\North America\North America\obj\x86\Debug\North America.pdb

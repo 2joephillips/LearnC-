@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Lottery Numbers\Lottery Numbers\bin\Debug\Lottery Numbers.exe
+C:\Users\Phillips\Visual-Studio-C-\Lottery Numbers\Lottery Numbers\bin\Debug\Lottery Numbers.pdb
+C:\Users\Phillips\Visual-Studio-C-\Lottery Numbers\Lottery Numbers\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery_Numbers.Form1.resources
+C:\Users\Phillips\Visual-Studio-C-\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery_Numbers.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Lottery Numbers\Lottery Numbers\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Lottery Numbers\Lottery Numbers\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery Numbers.exe
+C:\Users\Phillips\Visual-Studio-C-\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery Numbers.pdb

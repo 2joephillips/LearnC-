@@ -348,6 +348,7 @@
             this.Controls.Add(this.grpbxOil_Lube);
             this.Name = "frmAutomotive";
             this.Text = "Automotive";
+            this.Load += new System.EventHandler(this.frmAutomotive_Load);
             this.grpbxOil_Lube.ResumeLayout(false);
             this.grpbxOil_Lube.PerformLayout();
             this.grpbxFlushes.ResumeLayout(false);
