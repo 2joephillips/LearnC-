@@ -7,3 +7,5 @@ C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\G
 C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\Test Average.exe
 C:\Users\Phillips\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\Test Average.pdb
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\Test Average.exe
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Test Average CH7\Test Average\obj\x86\Debug\Test Average.pdb
