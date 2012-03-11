@@ -1,0 +1,5 @@
+C:\Users\Phillips\Visual-Studio-C-\Telephone Format\Telephone Format\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Telephone Format\Telephone Format\obj\x86\Debug\Telephone_Format.Form1.resources
+C:\Users\Phillips\Visual-Studio-C-\Telephone Format\Telephone Format\obj\x86\Debug\Telephone_Format.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Telephone Format\Telephone Format\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Telephone Format\Telephone Format\obj\x86\Debug\GenerateResource.write.1.tlog
