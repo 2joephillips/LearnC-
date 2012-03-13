@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Random Card\Random Card\bin\Debug\Random Card.exe
+C:\Users\Phillips\Visual-Studio-C-\Random Card\Random Card\bin\Debug\Random Card.pdb
+C:\Users\Phillips\Visual-Studio-C-\Random Card\Random Card\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Random Card\Random Card\obj\x86\Debug\Random_Card.Form1.resources
+C:\Users\Phillips\Visual-Studio-C-\Random Card\Random Card\obj\x86\Debug\Random_Card.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Random Card\Random Card\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Random Card\Random Card\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Random Card\Random Card\obj\x86\Debug\Random Card.exe
+C:\Users\Phillips\Visual-Studio-C-\Random Card\Random Card\obj\x86\Debug\Random Card.pdb
