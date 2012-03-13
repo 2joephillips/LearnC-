@@ -42,6 +42,7 @@
             this.exitButton.TabIndex = 7;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // unformatButton
             // 
@@ -51,6 +52,7 @@
             this.unformatButton.TabIndex = 6;
             this.unformatButton.Text = "Unformat";
             this.unformatButton.UseVisualStyleBackColor = true;
+            this.unformatButton.Click += new System.EventHandler(this.unformatButton_Click);
             // 
             // instructionLabel
             // 
