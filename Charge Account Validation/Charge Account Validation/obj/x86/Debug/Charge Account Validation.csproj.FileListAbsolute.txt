@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\Charge_Account_Validation.chargeAccountValidation.resources
+C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\Charge_Account_Validation.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\bin\Debug\Charge Account Validation.exe
+C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\bin\Debug\Charge Account Validation.pdb
+C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\Charge Account Validation.exe
+C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\Charge Account Validation.pdb
