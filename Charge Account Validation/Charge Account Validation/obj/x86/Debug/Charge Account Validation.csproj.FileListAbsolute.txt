@@ -7,3 +7,5 @@ C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Vali
 C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\bin\Debug\Charge Account Validation.pdb
 C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\Charge Account Validation.exe
 C:\Users\Phillips\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\Charge Account Validation.pdb
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\Charge Account Validation.exe
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Charge Account Validation\Charge Account Validation\obj\x86\Debug\Charge Account Validation.pdb
