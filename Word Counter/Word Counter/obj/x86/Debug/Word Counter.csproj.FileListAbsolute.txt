@@ -1,0 +1,9 @@
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Word Counter\Word Counter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Word Counter\Word Counter\obj\x86\Debug\Word_Counter.frmWordCounter.resources
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Word Counter\Word Counter\obj\x86\Debug\Word_Counter.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Word Counter\Word Counter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Word Counter\Word Counter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Word Counter\Word Counter\bin\Debug\Word Counter.exe
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Word Counter\Word Counter\bin\Debug\Word Counter.pdb
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Word Counter\Word Counter\obj\x86\Debug\Word Counter.exe
+C:\Documents and Settings\Administrator\Desktop\Visual-Studio-C-\Word Counter\Word Counter\obj\x86\Debug\Word Counter.pdb
