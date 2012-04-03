@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Cell Phone Inventory\Cell Phone Inventory\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Cell Phone Inventory\Cell Phone Inventory\obj\x86\Debug\Cell_Phone_Inventory.Form1.resources
+C:\Users\Phillips\Visual-Studio-C-\Cell Phone Inventory\Cell Phone Inventory\obj\x86\Debug\Cell_Phone_Inventory.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Cell Phone Inventory\Cell Phone Inventory\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Cell Phone Inventory\Cell Phone Inventory\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Cell Phone Inventory\Cell Phone Inventory\bin\Debug\Cell Phone Inventory.exe
+C:\Users\Phillips\Visual-Studio-C-\Cell Phone Inventory\Cell Phone Inventory\bin\Debug\Cell Phone Inventory.pdb
+C:\Users\Phillips\Visual-Studio-C-\Cell Phone Inventory\Cell Phone Inventory\obj\x86\Debug\Cell Phone Inventory.exe
+C:\Users\Phillips\Visual-Studio-C-\Cell Phone Inventory\Cell Phone Inventory\obj\x86\Debug\Cell Phone Inventory.pdb

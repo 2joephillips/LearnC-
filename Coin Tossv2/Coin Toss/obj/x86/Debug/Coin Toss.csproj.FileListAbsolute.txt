@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Coin Tossv2\Coin Toss\bin\Debug\Coin Toss.exe
+C:\Users\Phillips\Visual-Studio-C-\Coin Tossv2\Coin Toss\bin\Debug\Coin Toss.pdb
+C:\Users\Phillips\Visual-Studio-C-\Coin Tossv2\Coin Toss\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Coin Tossv2\Coin Toss\obj\x86\Debug\Coin_Toss.Form1.resources
+C:\Users\Phillips\Visual-Studio-C-\Coin Tossv2\Coin Toss\obj\x86\Debug\Coin_Toss.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Coin Tossv2\Coin Toss\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Coin Tossv2\Coin Toss\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Coin Tossv2\Coin Toss\obj\x86\Debug\Coin Toss.exe
+C:\Users\Phillips\Visual-Studio-C-\Coin Tossv2\Coin Toss\obj\x86\Debug\Coin Toss.pdb
