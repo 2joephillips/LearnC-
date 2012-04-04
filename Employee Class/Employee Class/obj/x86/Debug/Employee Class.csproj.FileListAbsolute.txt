@@ -1,0 +1,9 @@
+C:\Users\Phillips\Visual-Studio-C-\Employee Class\Employee Class\bin\Debug\Employee Class.exe
+C:\Users\Phillips\Visual-Studio-C-\Employee Class\Employee Class\bin\Debug\Employee Class.pdb
+C:\Users\Phillips\Visual-Studio-C-\Employee Class\Employee Class\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Employee Class\Employee Class\obj\x86\Debug\Employee_Class.frmEmployeeList.resources
+C:\Users\Phillips\Visual-Studio-C-\Employee Class\Employee Class\obj\x86\Debug\Employee_Class.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Employee Class\Employee Class\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Employee Class\Employee Class\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Employee Class\Employee Class\obj\x86\Debug\Employee Class.exe
+C:\Users\Phillips\Visual-Studio-C-\Employee Class\Employee Class\obj\x86\Debug\Employee Class.pdb
