@@ -1,0 +1,10 @@
+C:\Users\Phillips\Visual-Studio-C-\Dorm and Meal Plan Calculator\Dorm and Meal Plan Calculator\bin\Debug\Dorm and Meal Plan Calculator.exe
+C:\Users\Phillips\Visual-Studio-C-\Dorm and Meal Plan Calculator\Dorm and Meal Plan Calculator\bin\Debug\Dorm and Meal Plan Calculator.pdb
+C:\Users\Phillips\Visual-Studio-C-\Dorm and Meal Plan Calculator\Dorm and Meal Plan Calculator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Dorm and Meal Plan Calculator\Dorm and Meal Plan Calculator\obj\x86\Debug\Dorm_and_Meal_Plan_Calculator.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Dorm and Meal Plan Calculator\Dorm and Meal Plan Calculator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Dorm and Meal Plan Calculator\Dorm and Meal Plan Calculator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Dorm and Meal Plan Calculator\Dorm and Meal Plan Calculator\obj\x86\Debug\Dorm and Meal Plan Calculator.exe
+C:\Users\Phillips\Visual-Studio-C-\Dorm and Meal Plan Calculator\Dorm and Meal Plan Calculator\obj\x86\Debug\Dorm and Meal Plan Calculator.pdb
+C:\Users\Phillips\Visual-Studio-C-\Dorm and Meal Plan Calculator\Dorm and Meal Plan Calculator\obj\x86\Debug\Dorm_and_Meal_Plan_Calculator.formDormNMealPlan.resources
+C:\Users\Phillips\Visual-Studio-C-\Dorm and Meal Plan Calculator\Dorm and Meal Plan Calculator\obj\x86\Debug\Dorm_and_Meal_Plan_Calculator.TotalCost.resources

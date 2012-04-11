@@ -11,14 +11,14 @@ namespace Employee_Class
         public string Name { get; set; }
         private int IdName { get; set; }
         public string Department { get; set; }
-        public string Posistion { get; set; }
+        public string Position { get; set; }
 
         public Employee (int id, string name, string department, string position)
         {
             IdName = id;
             Name = name;
             Department = department;
-            Posistion = position;
+            Position = position;
 
         }
 
@@ -27,14 +27,14 @@ namespace Employee_Class
             IdName = 0;
             Name = "";
             Department = "";
-            Posistion = "";
+            Position = "";
         }
         public Employee(int id, string name)
         {
             IdName = id;
             Name = name;
             Department = "";
-            Posistion = "";
+            Position = "";
         }
 
         public string getInfo()
