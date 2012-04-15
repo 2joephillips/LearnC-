@@ -40,9 +40,9 @@ namespace Dorm_and_Meal_Plan_Calculator
             int totalcost = 0;
 
             //Pull value for Dorm Groupbox
-            CheckGroupbox(grpBoxDorm, ref dormCost);
+            SelectedRadioButton(grpBoxDorm, ref dormCost);
             //Pull value for Meal Plan
-            CheckGroupbox(grpboxMealPlan, ref mealPlan);
+            SelectedRadioButton(grpboxMealPlan, ref mealPlan);
             //Calculate Total Cost
             totalcost = dormCost + mealPlan;
 
@@ -52,9 +52,17 @@ namespace Dorm_and_Meal_Plan_Calculator
             frmTotalCost.ShowDialog();
         }
 
-        private void CheckGroupbox(GroupBox groupbox, ref int value)
-        {
+        /// <summary>
+        /// Select RadioButton from GroupBox
+        /// </summary>
+        /// <param name="groupbox"></param>
+        /// <param name="value"></param>
+        private void SelectedRadioButton(GroupBox groupbox, ref int value)
+        {   
+            //Retrieve text from selected Textbox.
             string radioText = groupbox.Controls.OfType<RadioButton>().SingleOrDefault(rad => rad.Checked == true).Text;
+            
+            //pull value from radiobutton
             if (groupbox.Name == "grpBoxDorm")
             {
                DormCosts(radioText, ref value);
@@ -67,6 +75,11 @@ namespace Dorm_and_Meal_Plan_Calculator
        
         }
 
+        /// <summary>
+        /// Pull value based on selected RadioButton for Meal Plans
+        /// </summary>
+        /// <param name="radioText"></param>
+        /// <param name="value"></param>
         private void MealPlanCosts(string radioText, ref int value)
         {
             switch (radioText)
@@ -83,6 +96,11 @@ namespace Dorm_and_Meal_Plan_Calculator
             }
         }
 
+        /// <summary>
+        /// Pull value based on selected RadioButton for Dorm Costs
+        /// </summary>
+        /// <param name="radioText"></param>
+        /// <param name="value"></param>
         private void DormCosts(string radioText, ref int value)
         {
             switch (radioText)

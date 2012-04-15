@@ -1,0 +1,10 @@
+C:\Users\Phillips\Visual-Studio-C-\PerferredCustomerv2\PerferredCustomerv2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\PerferredCustomerv2\PerferredCustomerv2\obj\x86\Debug\PerferredCustomerv2.CreateCustomer.resources
+C:\Users\Phillips\Visual-Studio-C-\PerferredCustomerv2\PerferredCustomerv2\obj\x86\Debug\PerferredCustomerv2.Sales.resources
+C:\Users\Phillips\Visual-Studio-C-\PerferredCustomerv2\PerferredCustomerv2\obj\x86\Debug\PerferredCustomerv2.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\PerferredCustomerv2\PerferredCustomerv2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\PerferredCustomerv2\PerferredCustomerv2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\PerferredCustomerv2\PerferredCustomerv2\bin\Debug\PerferredCustomerv2.exe
+C:\Users\Phillips\Visual-Studio-C-\PerferredCustomerv2\PerferredCustomerv2\bin\Debug\PerferredCustomerv2.pdb
+C:\Users\Phillips\Visual-Studio-C-\PerferredCustomerv2\PerferredCustomerv2\obj\x86\Debug\PerferredCustomerv2.exe
+C:\Users\Phillips\Visual-Studio-C-\PerferredCustomerv2\PerferredCustomerv2\obj\x86\Debug\PerferredCustomerv2.pdb
