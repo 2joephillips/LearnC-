@@ -1,0 +1,12 @@
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\bin\Debug\ProductDB.mdf
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\bin\Debug\ProductDB_log.ldf
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\bin\Debug\Product Lookup.exe.config
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\bin\Debug\Product Lookup.exe
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\bin\Debug\Product Lookup.pdb
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\obj\x86\Debug\Product_Lookup.Form1.resources
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\obj\x86\Debug\Product_Lookup.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\obj\x86\Debug\Product Lookup.exe
+C:\Users\Phillips\Visual-Studio-C-\Product Lookup\Product Lookup\obj\x86\Debug\Product Lookup.pdb

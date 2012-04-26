@@ -1,0 +1,27 @@
+c:\documents and settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\obj\x86\Debug\Serialization.Form1.resources
+c:\documents and settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\obj\x86\Debug\Serialization.Properties.Resources.resources
+c:\documents and settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\bin\Debug\Serialization.exe
+c:\documents and settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\bin\Debug\Serialization.pdb
+c:\documents and settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\obj\x86\Debug\Serialization.exe
+c:\documents and settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\obj\x86\Debug\Serialization.pdb
+C:\Documents and Settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\bin\Debug\Serialization.exe.config
+C:\Documents and Settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\bin\Debug\ObjectListView.dll
+C:\Documents and Settings\sv0a\my documents\visual studio 2010\Projects\Serialization\Serialization\bin\Debug\ObjectListView.pdb
+C:\Users\Phillips\Desktop\Serialization\Serialization\bin\Debug\Serialization.exe.config
+C:\Users\Phillips\Desktop\Serialization\Serialization\obj\x86\Debug\Serialization.exe
+C:\Users\Phillips\Desktop\Serialization\Serialization\obj\x86\Debug\Serialization.pdb
+C:\Users\Phillips\Desktop\Serialization\Serialization\bin\Debug\Serialization.exe
+C:\Users\Phillips\Desktop\Serialization\Serialization\bin\Debug\Serialization.pdb
+C:\Users\Phillips\Desktop\Serialization\Serialization\bin\Debug\ObjectListView.dll
+C:\Users\Phillips\Desktop\Serialization\Serialization\bin\Debug\ObjectListView.pdb
+C:\Users\Phillips\Desktop\Serialization\Serialization\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Desktop\Serialization\Serialization\obj\x86\Debug\Serialization.Form1.resources
+C:\Users\Phillips\Desktop\Serialization\Serialization\obj\x86\Debug\Serialization.Properties.Resources.resources
+C:\Users\Phillips\Desktop\Serialization\Serialization\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Desktop\Serialization\Serialization\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\Serialization\Serialization\bin\Debug\Serialization.exe.config
+C:\Users\Phillips\Visual-Studio-C-\Serialization\Serialization\obj\x86\Debug\Serialization.exe
+C:\Users\Phillips\Visual-Studio-C-\Serialization\Serialization\obj\x86\Debug\Serialization.pdb

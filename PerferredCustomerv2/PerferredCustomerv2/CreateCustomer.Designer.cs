@@ -39,6 +39,8 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtbxInitialSales = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -109,7 +111,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(43, 175);
+            this.checkBox1.Location = new System.Drawing.Point(43, 196);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(78, 17);
             this.checkBox1.TabIndex = 8;
@@ -135,11 +137,29 @@
             this.button2.Text = "Create";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(26, 159);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(63, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Initial Sales:";
+            // 
+            // txtbxInitialSales
+            // 
+            this.txtbxInitialSales.Location = new System.Drawing.Point(120, 159);
+            this.txtbxInitialSales.Name = "txtbxInitialSales";
+            this.txtbxInitialSales.Size = new System.Drawing.Size(112, 20);
+            this.txtbxInitialSales.TabIndex = 12;
+            // 
             // CreateCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.txtbxInitialSales);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
@@ -152,7 +172,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "CreateCustomer";
-            this.Text = "CreateCustomer";
+            this.Text = "Create Customer";
             this.Load += new System.EventHandler(this.CreateCustomer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -172,5 +192,7 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtbxInitialSales;
     }
 }

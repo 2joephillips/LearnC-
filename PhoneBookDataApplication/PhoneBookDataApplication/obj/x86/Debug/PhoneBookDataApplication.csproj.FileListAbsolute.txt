@@ -1,0 +1,12 @@
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\bin\Debug\PhoneList.mdf
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\bin\Debug\PhoneList_log.ldf
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\bin\Debug\PhoneBookDataApplication.exe.config
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\bin\Debug\PhoneBookDataApplication.exe
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\bin\Debug\PhoneBookDataApplication.pdb
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\obj\x86\Debug\PhoneBookDataApplication.Form1.resources
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\obj\x86\Debug\PhoneBookDataApplication.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\obj\x86\Debug\PhoneBookDataApplication.exe
+C:\Users\Phillips\Visual-Studio-C-\PhoneBookDataApplication\PhoneBookDataApplication\obj\x86\Debug\PhoneBookDataApplication.pdb

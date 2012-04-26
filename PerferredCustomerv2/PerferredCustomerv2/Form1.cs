@@ -17,12 +17,9 @@ namespace PerferredCustomerv2
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Sales_Load(object sender, EventArgs e)
         {
-            CreateCustomer frmCreateCustomer = new CreateCustomer();
-            frmCreateCustomer.ShowDialog();
-        }
-
-
-    }
+            LoadData("PerferredCustomerListing.txt");
+        }       
+     }
 }

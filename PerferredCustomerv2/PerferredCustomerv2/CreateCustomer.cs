@@ -24,10 +24,7 @@ namespace PerferredCustomerv2
 
         private void CreateCustomer_Load(object sender, EventArgs e)
         {
-            Sales frmsale = new Sales();
-            int min = 1;
-            MessageBox.Show(min.ToString());
-            lblCustomerId.Text = min.ToString();
+            
         }
 
 
