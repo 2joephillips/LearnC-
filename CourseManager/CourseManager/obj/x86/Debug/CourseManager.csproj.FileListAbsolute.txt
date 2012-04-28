@@ -1,0 +1,13 @@
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\bin\Debug\CourseManager.exe.config
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\bin\Debug\CourseManager.exe
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\bin\Debug\CourseManager.pdb
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\obj\x86\Debug\CourseManager.CourseViewer.resources
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\obj\x86\Debug\CourseManager.Properties.Resources.resources
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\obj\x86\Debug\CourseManager.exe
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\obj\x86\Debug\CourseManager.pdb
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\obj\x86\Debug\CourseManager.Enrollment.resources
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\obj\x86\Debug\CourseManager.CourseDiscrimnator.resources
+C:\Users\Phillips\Visual-Studio-C-\CourseManager\CourseManager\obj\x86\Debug\CourseManager.OfficeAssignments.resources
