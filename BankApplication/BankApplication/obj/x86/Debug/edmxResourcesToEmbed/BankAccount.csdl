@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BankApplicationModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="BankApplicationEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="BankApplicationModel.Account" />
+    <EntitySet Name="People" EntityType="BankApplicationModel.Person" />
+    <EntitySet Name="sysdiagrams" EntityType="BankApplicationModel.sysdiagram" />
+    <AssociationSet Name="FK_Account_Person" Association="BankApplicationModel.FK_Account_Person">
+      <End Role="Person" EntitySet="People" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Account" a:TypeAccess="Public" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" Abstract="true">
+    <Key>
+      <PropertyRef Name="AccountId" />
+    </Key>
+    <Property Name="AccountId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Status" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Balance" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="PersonId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Person" Relationship="BankApplicationModel.FK_Account_Person" FromRole="Account" ToRole="Person" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="SSN" Type="Int32" Nullable="false" />
+    <Property Name="stAddr" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="city" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="State" Type="String" Nullable="false" MaxLength="2" Unicode="true" FixedLength="true" />
+    <Property Name="Zip" Type="String" Nullable="false" MaxLength="5" Unicode="true" FixedLength="true" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="Accounts" Relationship="BankApplicationModel.FK_Account_Person" FromRole="Person" ToRole="Account" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Account_Person">
+    <End Role="Person" Type="BankApplicationModel.Person" Multiplicity="1" />
+    <End Role="Account" Type="BankApplicationModel.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="PersonId" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Savings" BaseType="BankApplicationModel.Account">
+    <Property Type="Decimal" Name="rate" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CD" BaseType="BankApplicationModel.Account">
+    <Property Type="DateTime" Name="Maturity" Nullable="false" />
+  </EntityType>
+</Schema>
