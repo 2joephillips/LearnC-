@@ -47,10 +47,18 @@ namespace BankApplicationv3
         //Calculate the next Account Number.
         private string NextAccountNumber()
         {
+            try
+            {
             int maxAccountNumber = (from p in accounts select p.AccountId).Max();
             int nextAccountnumber;
             nextAccountnumber = maxAccountNumber + 1;
             return nextAccountnumber.ToString();
+            }
+            catch (Exception)
+            {
+                int nextAccountnumber = 1;
+                return nextAccountnumber.ToString();
+            }   
         }
 
         //Checking Radiobutton Selected and items for Rate and Maturity Date removed.

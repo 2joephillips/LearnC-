@@ -103,6 +103,7 @@
             this.btnCreateAccountSave.TabIndex = 7;
             this.btnCreateAccountSave.Text = "Submit";
             this.btnCreateAccountSave.UseVisualStyleBackColor = true;
+            this.btnCreateAccountSave.Click += new System.EventHandler(this.btnCreateAccountSave_Click);
             // 
             // txtBxMaturityDate
             // 
