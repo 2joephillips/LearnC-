@@ -9,3 +9,4 @@ C:\Users\Phillips\Visual-Studio-C-\BankApplicationv3\BankApplicationv3\obj\x86\D
 C:\Users\Phillips\Visual-Studio-C-\BankApplicationv3\BankApplicationv3\obj\x86\Debug\BankApplicationv3.CreateAccount.resources
 C:\Users\Phillips\Visual-Studio-C-\BankApplicationv3\BankApplicationv3\obj\x86\Debug\BankApplicationv3.CloseAccount.resources
 C:\Users\Phillips\Visual-Studio-C-\BankApplicationv3\BankApplicationv3\obj\x86\Debug\BankApplicationv3.MainMenu.resources
+C:\Users\Phillips\Visual-Studio-C-\BankApplicationv3\BankApplicationv3\obj\x86\Debug\BankApplicationv3.ConductTransaction.resources

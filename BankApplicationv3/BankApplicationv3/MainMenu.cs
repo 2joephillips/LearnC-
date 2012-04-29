@@ -63,5 +63,11 @@ namespace BankApplicationv3
             CloseAccount frmCloseAccount = new CloseAccount();
             frmCloseAccount.Visible = true;
         }
+
+        private void btnConductTransaction_Click(object sender, EventArgs e)
+        {
+            ConductTransaction frmConductTransaction = new ConductTransaction();
+            frmConductTransaction.Visible = true;
+        }
     }
 }

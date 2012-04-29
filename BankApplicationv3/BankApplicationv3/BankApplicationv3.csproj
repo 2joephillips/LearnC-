@@ -53,6 +53,12 @@
     <Compile Include="CloseAccount.Designer.cs">
       <DependentUpon>CloseAccount.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConductTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConductTransaction.Designer.cs">
+      <DependentUpon>ConductTransaction.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreateAccount.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="Serializer.cs" />
     <EmbeddedResource Include="CloseAccount.resx">
       <DependentUpon>CloseAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConductTransaction.resx">
+      <DependentUpon>ConductTransaction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreateAccount.resx">
       <DependentUpon>CreateAccount.cs</DependentUpon>

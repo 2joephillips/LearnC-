@@ -66,6 +66,7 @@
             this.btnConductTransaction.TabIndex = 2;
             this.btnConductTransaction.Text = "Conduct Transaction";
             this.btnConductTransaction.UseVisualStyleBackColor = true;
+            this.btnConductTransaction.Click += new System.EventHandler(this.btnConductTransaction_Click);
             // 
             // btnManageAccount
             // 
@@ -88,7 +89,7 @@
             this.BtnClose.UseVisualStyleBackColor = true;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
-            // Form1
+            // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -98,7 +99,7 @@
             this.Controls.Add(this.btnConductTransaction);
             this.Controls.Add(this.btnCloseAccount);
             this.Controls.Add(this.btnCreateAccount);
-            this.Name = "Form1";
+            this.Name = "MainMenu";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
