@@ -36,12 +36,12 @@
             this.pnlTransferDepositWithdrawl = new System.Windows.Forms.Panel();
             this.lblWithdrawl = new System.Windows.Forms.Label();
             this.lblDeposit = new System.Windows.Forms.Label();
-            this.lblBalanceFromAccount = new System.Windows.Forms.Label();
-            this.txtbxBalanceFromAccount = new System.Windows.Forms.TextBox();
             this.txtbxWithdrawl = new System.Windows.Forms.TextBox();
             this.txtbxDeposit = new System.Windows.Forms.TextBox();
             this.lblAccount = new System.Windows.Forms.Label();
             this.cmboxAccountNumbers = new System.Windows.Forms.ComboBox();
+            this.lblBalanceFromAccount = new System.Windows.Forms.Label();
+            this.txtbxBalanceFromAccount = new System.Windows.Forms.TextBox();
             this.pnlTransfer = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.txtbxToBalance = new System.Windows.Forms.TextBox();
@@ -151,22 +151,6 @@
             this.lblDeposit.TabIndex = 4;
             this.lblDeposit.Text = "Deposit";
             // 
-            // lblBalanceFromAccount
-            // 
-            this.lblBalanceFromAccount.AutoSize = true;
-            this.lblBalanceFromAccount.Location = new System.Drawing.Point(16, 52);
-            this.lblBalanceFromAccount.Name = "lblBalanceFromAccount";
-            this.lblBalanceFromAccount.Size = new System.Drawing.Size(126, 13);
-            this.lblBalanceFromAccount.TabIndex = 8;
-            this.lblBalanceFromAccount.Text = "Balance in From Account";
-            // 
-            // txtbxBalanceFromAccount
-            // 
-            this.txtbxBalanceFromAccount.Location = new System.Drawing.Point(19, 68);
-            this.txtbxBalanceFromAccount.Name = "txtbxBalanceFromAccount";
-            this.txtbxBalanceFromAccount.Size = new System.Drawing.Size(100, 20);
-            this.txtbxBalanceFromAccount.TabIndex = 7;
-            // 
             // txtbxWithdrawl
             // 
             this.txtbxWithdrawl.Location = new System.Drawing.Point(134, 142);
@@ -198,6 +182,22 @@
             this.cmboxAccountNumbers.Size = new System.Drawing.Size(121, 21);
             this.cmboxAccountNumbers.TabIndex = 0;
             this.cmboxAccountNumbers.Enter += new System.EventHandler(this.cmboxAccountNumbers_Enter);
+            // 
+            // lblBalanceFromAccount
+            // 
+            this.lblBalanceFromAccount.AutoSize = true;
+            this.lblBalanceFromAccount.Location = new System.Drawing.Point(16, 52);
+            this.lblBalanceFromAccount.Name = "lblBalanceFromAccount";
+            this.lblBalanceFromAccount.Size = new System.Drawing.Size(126, 13);
+            this.lblBalanceFromAccount.TabIndex = 8;
+            this.lblBalanceFromAccount.Text = "Balance in From Account";
+            // 
+            // txtbxBalanceFromAccount
+            // 
+            this.txtbxBalanceFromAccount.Location = new System.Drawing.Point(19, 68);
+            this.txtbxBalanceFromAccount.Name = "txtbxBalanceFromAccount";
+            this.txtbxBalanceFromAccount.Size = new System.Drawing.Size(100, 20);
+            this.txtbxBalanceFromAccount.TabIndex = 7;
             // 
             // pnlTransfer
             // 
@@ -304,6 +304,7 @@
             this.btnAnotherTransaction.TabIndex = 4;
             this.btnAnotherTransaction.Text = "Another Transaction";
             this.btnAnotherTransaction.UseVisualStyleBackColor = true;
+            this.btnAnotherTransaction.Click += new System.EventHandler(this.btnAnotherTransaction_Click);
             // 
             // btnClose
             // 

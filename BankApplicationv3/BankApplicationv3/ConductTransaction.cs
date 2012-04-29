@@ -91,20 +91,30 @@ namespace BankApplicationv3
             {
                 try
                 {
-                    int transferAmount = int.Parse(txtbxTransferAmount.Text);
+                    decimal transferAmount = decimal.Parse(txtbxTransferAmount.Text);
                     //UPdate From Account
                     account = accounts.Single(s => s.AccountId.ToString() == cmbxAccountFrom.SelectedValue.ToString());
-                    account.Balance -= transferAmount;
-                    accounts.RemoveAll(x => x.AccountId.ToString() == cmbxAccountFrom.SelectedValue.ToString());
-                    accounts.Add(account);
-                    txtbxBalanceFromAccount.Text = account.Balance.ToString();
+                    if (account.Balance > transferAmount)
+                    {
+                        account.Balance -= transferAmount;
+                        accounts.RemoveAll(x => x.AccountId.ToString() == cmbxAccountFrom.SelectedValue.ToString());
+                        accounts.Add(account);
+                        txtbxBalanceFromAccount.Text = account.Balance.ToString();
 
-                    //Update To Account
-                    account = accounts.Single(s => s.AccountId.ToString() == cmbxToAccount.SelectedValue.ToString());
-                    account.Balance -= transferAmount;
-                    accounts.RemoveAll(x => x.AccountId.ToString() == cmbxToAccount.SelectedValue.ToString());
-                    accounts.Add(account);
-                    txtbxToBalance.Text = account.Balance.ToString();
+                        //Update To Account
+                        account = accounts.Single(s => s.AccountId.ToString() == cmbxToAccount.SelectedValue.ToString());
+                        account.Balance += transferAmount;
+                        accounts.RemoveAll(x => x.AccountId.ToString() == cmbxToAccount.SelectedValue.ToString());
+                        accounts.Add(account);
+                        txtbxToBalance.Text = account.Balance.ToString();
+
+                        txtbxTransferAmount.Clear();
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("NSF");
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -113,7 +123,52 @@ namespace BankApplicationv3
                     txtbxTransferAmount.Clear();
                 }
             }
-            
+            else if (rdbtnDeposit.Checked)
+            {
+                try
+                {
+                    decimal deposit = decimal.Parse(txtbxDeposit.Text);
+                    account = accounts.Single(s => s.AccountId.ToString() == cmboxAccountNumbers.SelectedValue.ToString());
+                    string intialAmount = account.Balance.ToString("c");
+                    account.Balance += deposit;
+                    string newAmount = account.Balance.ToString("c");
+                    accounts.RemoveAll(x => x.AccountId.ToString() == cmboxAccountNumbers.SelectedValue.ToString());
+                    accounts.Add(account);
+                    MessageBox.Show("Deposited " + deposit.ToString("c") + " to your account raising your balance from " + intialAmount + " to " + newAmount + ".");
+                    this.txtbxDeposit.Clear();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else if (rdbtnWithdrawl.Checked)
+            {
+                 try
+                {
+                    decimal withdrawl = decimal.Parse(txtbxWithdrawl.Text);
+                    account = accounts.Single(s => s.AccountId.ToString() == cmboxAccountNumbers.SelectedValue.ToString());
+                    if (account.Balance > withdrawl)
+                    {
+                        string intialAmount = account.Balance.ToString("c");
+                        account.Balance -= withdrawl;
+                        string newAmount = account.Balance.ToString("c");
+                        accounts.RemoveAll(x => x.AccountId.ToString() == cmboxAccountNumbers.SelectedValue.ToString()); 
+                        accounts.Add(account);
+                        MessageBox.Show("Withdrawled " + withdrawl.ToString("c") + " to your account raising your balance from " + intialAmount + " to " + newAmount + ".");
+                        this.txtbxWithdrawl.Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("NSF");
+                        txtbxWithdrawl.Clear();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
         }
 
         private void cmbxToAccount_Enter(object sender, EventArgs e)
@@ -142,6 +197,24 @@ namespace BankApplicationv3
             cmboxAccountNumbers.DataSource = accounts.ToArray();
             cmboxAccountNumbers.DisplayMember = "AccountId";
             cmboxAccountNumbers.ValueMember = "AccountId";
+        }
+
+        private void Clearall()
+        {
+            cmboxAccountNumbers.Text = "";
+            cmbxAccountFrom.Text = "";
+            cmbxToAccount.Text = "";
+            txtbxBalanceFromAccount.Clear();
+            txtbxDeposit.Clear();
+            txtbxToBalance.Clear();
+            txtbxTransferAmount.Clear();
+            txtbxWithdrawl.Clear();
+        }
+
+        private void btnAnotherTransaction_Click(object sender, EventArgs e)
+        {
+            Clearall();
+            this.Refresh();
         }
 
        }

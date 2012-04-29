@@ -28,18 +28,16 @@ namespace BankApplicationv3
         //Load Accounts into Form
         private void CreateAccount_Load(object sender, EventArgs e)
         {
-                       
+
+
+            //Calculate the next Account number
+            lblAccountNumber.Text = NextAccountNumber();
+
             //Pull data from txt file.
             ObjectToSerialize objectToSerialize = new ObjectToSerialize();
             Serializer serializer = new Serializer();
             objectToSerialize = serializer.DeSerializeObject("outputFile.txt");
             accounts = objectToSerialize.Accounts;
-
-            //Turn off Rate and Maturity for Checking
-            this.lblMaturityDate.Visible = false;
-            this.lblRate.Visible = false;
-            this.txtbxRate.Visible = false;
-            this.txtBxMaturityDate.Visible = false;
             //Calculate the next Account number
             lblAccountNumber.Text = NextAccountNumber();
         }
