@@ -11,8 +11,11 @@ namespace BankApplicationv3
 {
     public partial class CloseAccount : Form
     {
+        //List for Serialized data
         public List<Account> accounts = new List<Account>();
+        
         public Account account;
+        
         public CloseAccount()
         {
             InitializeComponent();
@@ -28,15 +31,24 @@ namespace BankApplicationv3
             accounts = objectToSerialize.Accounts;
         }
 
+        /// <summary>
+        /// Find a account within the list 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnFindAccount_Click(object sender, EventArgs e)
         {
+            //Check for number to be entered.
             if (!string.IsNullOrEmpty(txtbxAccountNumber.Text))
             {
                 try
                 {
+                    //find account within the list of accounts
                     account = accounts.Single(s => s.AccountId == int.Parse(txtbxAccountNumber.Text));
+                    //Enter account data into form
                     FillinForm(account);
                 }
+                    //Error Handling
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
@@ -45,14 +57,16 @@ namespace BankApplicationv3
                 }
                    
             }
+                //Handle Error if nothing entered.
             else
             {
                 MessageBox.Show("Please, Enter a Account Number.");
             }
-
-          
         }
-
+        /// <summary>
+        /// Fill in the form with information from a single account.
+        /// </summary>
+        /// <param name="account"></param>
         private void FillinForm(Account account)
         {
             txtbxFName.Text = account.Customer.FName.ToString();
@@ -65,6 +79,7 @@ namespace BankApplicationv3
             txtbxEmail.Text = account.Customer.Email.ToString();
             txtbxInitialBalance.Text = account.Balance.ToString();
             txtbxSSN.Text = account.Customer.SSN.ToString();
+            //Format the form based on the type of account.
             if (account.Type == "Savings")
             {
                 this.lblMaturityDate.Visible = false;
@@ -86,32 +101,49 @@ namespace BankApplicationv3
                 this.txtbxRate.Visible = false;
                 this.txtBxMaturityDate.Visible = false;
             }
+
             txtbxRate.Text = account.Rate.ToString();
             txtBxMaturityDate.Text = account.Maturity.ToString();
         }
 
+        /// <summary>
+        /// Close Account
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCreateAccountClose_Click(object sender, EventArgs e)
         {
             //Close from
             this.Close();
         }
 
+        /// <summary>
+        /// Remove the Account from List of accounts.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCreateAccountSave_Click(object sender, EventArgs e)
         {
+            //Check for Number entered.
             if (!string.IsNullOrEmpty(txtbxAccountNumber.Text))
             {
                 try
                 {
+                    
                     int accountId = int.Parse(txtbxAccountNumber.Text);
+                    //Remove account.
                     accounts.RemoveAll(x => x.AccountId == accountId);
 
+                    // Save list of accounts to Text file.
                     ObjectToSerialize objectToSerialize = new ObjectToSerialize();
                     objectToSerialize.Accounts = accounts;
                     Serializer serializer = new Serializer();
                     serializer.SerializeObject("outputFile.txt", objectToSerialize);
 
+                    //Close Form.
                     this.Close();
                 }
+                    //Error Handling
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
@@ -122,11 +154,13 @@ namespace BankApplicationv3
 
             }
             else
+                //Error Handling
             {
                 MessageBox.Show("Please, Enter a Account Number.");
             }
         }
 
+        //Clear Form 
         private void ClearFrom()
         {
             txtbxFName.Clear();
@@ -142,7 +176,5 @@ namespace BankApplicationv3
             txtbxInitialBalance.Clear();
             txtBxMaturityDate.Clear();
         }
-
-
     }
 }

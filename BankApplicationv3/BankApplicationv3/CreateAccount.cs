@@ -18,6 +18,7 @@ namespace BankApplicationv3
             InitializeComponent();
         }
 
+        //Close from.
         private void btnCreateAccountClose_Click(object sender, EventArgs e)
         {
            
@@ -28,7 +29,6 @@ namespace BankApplicationv3
         //Load Accounts into Form
         private void CreateAccount_Load(object sender, EventArgs e)
         {
-
 
             //Calculate the next Account number
             lblAccountNumber.Text = NextAccountNumber();
@@ -153,7 +153,10 @@ namespace BankApplicationv3
             }
                   
         }
-
+        /// <summary>
+        /// Find type of account.
+        /// </summary>
+        /// <returns></returns>
         private string TypeOfAccount()
         {
             if (rdBtCD.Checked)

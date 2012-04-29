@@ -24,6 +24,7 @@ namespace BankApplicationv3
             this.Close();
         }
 
+        //Find Account within accounts.
         private void btnFindAccount_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txtbxAccountNumber.Text))
@@ -63,7 +64,7 @@ namespace BankApplicationv3
             }
 
         }
-
+        // Pull data.
         private void ManageAccount_Load(object sender, EventArgs e)
         {
             //Pull data from txt file.
@@ -72,6 +73,7 @@ namespace BankApplicationv3
             objectToSerialize = serializer.DeSerializeObject("outputFile.txt");
             accounts = objectToSerialize.Accounts;
         }
+        //Format form and fill data account. 
         private void FillinForm(Account account)
         {
             txtbxFName.Text = account.Customer.FName.ToString();
@@ -89,7 +91,7 @@ namespace BankApplicationv3
 
           
         }
-
+        //Save changes to text file. 
         private void btnCreateAccountSave_Click(object sender, EventArgs e)
         {
             int accountId = int.Parse(txtbxAccountNumber.Text);
@@ -109,6 +111,7 @@ namespace BankApplicationv3
             customer.Phone = txtPhoneNumber.Text;
             customer.Email = txtbxEmail.Text;
 
+            //save depending on type of account. 
             bool result = decimal.TryParse(txtbxRate.Text, out rate);
             if (result)
             {
@@ -136,8 +139,9 @@ namespace BankApplicationv3
                     Maturity = maturitydate
                 };
             }
-
+            //remove account 
             accounts.RemoveAll(x => x.AccountId == accountId);
+            //readd acount. 
             accounts.Add(account);
 
             //save the accounts list to a file
@@ -149,6 +153,7 @@ namespace BankApplicationv3
             this.Close();
         }
 
+        //Format for Checking account policies. 
         private void rdBtChecking_CheckedChanged(object sender, EventArgs e)
         {
             this.lblMaturityDate.Visible = false;
@@ -157,6 +162,7 @@ namespace BankApplicationv3
             this.txtBxMaturityDate.Visible = false;
         }
 
+        //Format for savincgs account policies. 
         private void rdBtSavings_CheckedChanged(object sender, EventArgs e)
         {
             this.lblMaturityDate.Visible = false;
@@ -165,6 +171,7 @@ namespace BankApplicationv3
             this.txtBxMaturityDate.Visible = false;
         }
 
+        //Format for cd account policies. 
         private void rdBtCD_CheckedChanged(object sender, EventArgs e)
         {
             this.lblMaturityDate.Visible = true;
@@ -173,6 +180,7 @@ namespace BankApplicationv3
             this.txtBxMaturityDate.Visible = true;
         }
 
+        //Handle type of accounts. 
         private string TypeOfAccount()
         {
             if (rdBtCD.Checked)

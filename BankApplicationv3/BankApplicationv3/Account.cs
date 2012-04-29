@@ -10,6 +10,8 @@ namespace BankApplicationv3
     [Serializable]
     public class Account : ISerializable
     {
+        //Create all Properties for Accounts
+
         private int accountId;
 
         public int AccountId
@@ -60,10 +62,12 @@ namespace BankApplicationv3
             set { customer = value; }
         }
 
+        //Constructor
         public Account()
         {
         }
 
+        //Serialize Account
         public Account(SerializationInfo info, StreamingContext ctxt)
         {
             this.accountId = (int)info.GetValue("AccountId", typeof(int));
@@ -75,6 +79,7 @@ namespace BankApplicationv3
             this.customer = (Customer)info.GetValue("Customer", typeof(Customer));
         }
 
+        //Pull Serialized Data from txt.
         public void GetObjectData(SerializationInfo info, StreamingContext ctxt)
         {
             info.AddValue("AccountId", this.accountId);

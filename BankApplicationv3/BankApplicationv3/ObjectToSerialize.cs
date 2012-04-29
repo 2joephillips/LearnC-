@@ -10,6 +10,7 @@ namespace BankApplicationv3
     [Serializable]
     public class ObjectToSerialize: ISerializable
     {
+        //Properties
         private List<Account> accounts;
         public List<Account> Accounts
         {
@@ -17,10 +18,12 @@ namespace BankApplicationv3
             set { this.accounts = value; }
         }
 
+        //Constructors. 
         public ObjectToSerialize()
         {
         }
 
+        //Serialize Object. 
         public ObjectToSerialize (SerializationInfo info, StreamingContext ctxt)
         {
             this.accounts = (List<Account>)info.GetValue("Accounts",typeof(List<Account>));

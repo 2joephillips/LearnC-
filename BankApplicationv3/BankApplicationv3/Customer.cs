@@ -6,6 +6,7 @@ namespace BankApplicationv3
     [Serializable]
     public class Customer : ISerializable
     {
+        //Properties 
         private string ssn;
 
         public string SSN
@@ -69,10 +70,11 @@ namespace BankApplicationv3
             get { return email; }
             set { email = value; }
         }
-
+        //Constructor
         public Customer()
         { 
         }
+        //Serialize data
          public Customer (SerializationInfo info, StreamingContext ctxt)
          {
              this.ssn = (string)info.GetValue("SSN",typeof(string));
@@ -85,7 +87,7 @@ namespace BankApplicationv3
              this.phone = (string)info.GetValue("Phone",typeof(string));
              this.email = (string)info.GetValue("Email",typeof(string));
          }
-
+        //Unserialize data.
          public void GetObjectData(SerializationInfo info, StreamingContext ctxt)
          {
              info.AddValue("SSN", this.ssn);

@@ -11,10 +11,12 @@ namespace BankApplicationv3
 {
     class Serializer
     {
+        //Constructor. 
         public Serializer()
         {
         }
 
+        //Serialize
         public void SerializeObject(string filename, ObjectToSerialize objectToSerialize)
         {
             Stream stream = File.Open(filename, FileMode.Create);
@@ -23,6 +25,7 @@ namespace BankApplicationv3
             stream.Close();
         }
 
+        //Deserialize.
         public ObjectToSerialize DeSerializeObject(string filename)
         {
             ObjectToSerialize objectToSerialize;
@@ -32,8 +35,5 @@ namespace BankApplicationv3
             stream.Close();
             return objectToSerialize;
         }
-
-
-
     }
 }

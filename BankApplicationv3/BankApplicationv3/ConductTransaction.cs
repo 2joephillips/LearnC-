@@ -17,7 +17,11 @@ namespace BankApplicationv3
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Pull data from text file.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ConductTransaction_Load(object sender, EventArgs e)
         {
             this.pnlTransferDepositWithdrawl.Visible = false;
@@ -27,7 +31,11 @@ namespace BankApplicationv3
             objectToSerialize = serializer.DeSerializeObject("outputFile.txt");
             accounts = objectToSerialize.Accounts;
         }
-
+        /// <summary>
+        /// When closing form save data.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnClose_Click(object sender, EventArgs e)
         {
             
@@ -42,12 +50,13 @@ namespace BankApplicationv3
 
         }
 
+        //Format for for Transfer checked.
         private void rdbtnTransfer_CheckedChanged(object sender, EventArgs e)
         {
             this.pnlTransferDepositWithdrawl.Visible = false;
             this.pnlTransfer.Visible = true;
         }
-
+        //Format for for Deposit checked.
         private void rdbtnDeposit_CheckedChanged(object sender, EventArgs e)
         {
             this.pnlTransferDepositWithdrawl.Visible = true;
@@ -57,7 +66,7 @@ namespace BankApplicationv3
             this.txtbxWithdrawl.Visible = false;
             this.lblWithdrawl.Visible = false;
         }
-
+        //Format for for withdrawl checked.
         private void rdbtnWithdrawl_CheckedChanged(object sender, EventArgs e)
         {
             this.pnlTransferDepositWithdrawl.Visible = true;
@@ -67,7 +76,7 @@ namespace BankApplicationv3
             this.txtbxWithdrawl.Visible = true;
             this.lblWithdrawl.Visible = true;
         }
-
+        //Format for for AddInterest checked.
         private void rdbtAddInterest_CheckedChanged(object sender, EventArgs e)
         {
             this.pnlTransferDepositWithdrawl.Visible = true;
@@ -78,15 +87,21 @@ namespace BankApplicationv3
             this.lblWithdrawl.Visible = false;
         }
 
+        //Enter combox calculate accounts
         private void cmbxAccountFrom_Enter(object sender, EventArgs e)
         {
             cmbxAccountFrom.DataSource = accounts.ToArray();
             cmbxAccountFrom.DisplayMember = "AccountId";
             cmbxAccountFrom.ValueMember = "AccountId";
         }
-
+        /// <summary>
+        /// Handle the options for form.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSubmit_Click(object sender, EventArgs e)
         {
+            ///Transfer option checked.
             if (rdbtnTransfer.Checked)
             {
                 try
@@ -123,6 +138,7 @@ namespace BankApplicationv3
                     txtbxTransferAmount.Clear();
                 }
             }
+                // Handle Deposits 
             else if (rdbtnDeposit.Checked)
             {
                 try
@@ -142,6 +158,7 @@ namespace BankApplicationv3
                     MessageBox.Show(ex.Message);
                 }
             }
+                //Handle Withdrawls. 
             else if (rdbtnWithdrawl.Checked)
             {
                  try
@@ -170,7 +187,7 @@ namespace BankApplicationv3
                 }
             }
         }
-
+        //Enter combox calculate accounts
         private void cmbxToAccount_Enter(object sender, EventArgs e)
         {
         
@@ -179,26 +196,26 @@ namespace BankApplicationv3
             cmbxToAccount.DisplayMember = "AccountId";
             cmbxToAccount.ValueMember = "AccountId";
         }
-
+        //Enter combox calculate accounts
         private void cmbxAccountFrom_Leave(object sender, EventArgs e)
         {
             account = accounts.Single(s => s.AccountId.ToString() == cmbxAccountFrom.SelectedValue.ToString());
             txtbxBalanceFromAccount.Text = account.Balance.ToString();
         }
-
+        //Enter combox calculate accounts
         private void cmbxToAccount_Leave(object sender, EventArgs e)
         {
             account = accounts.Single(s => s.AccountId.ToString() == cmbxToAccount.SelectedValue.ToString());
             txtbxToBalance.Text = account.Balance.ToString();
         }
-
+        //Enter combox calculate accounts
         private void cmboxAccountNumbers_Enter(object sender, EventArgs e)
         {
             cmboxAccountNumbers.DataSource = accounts.ToArray();
             cmboxAccountNumbers.DisplayMember = "AccountId";
             cmboxAccountNumbers.ValueMember = "AccountId";
         }
-
+        //Cear from.
         private void Clearall()
         {
             cmboxAccountNumbers.Text = "";
