@@ -69,5 +69,11 @@ namespace BankApplicationv3
             ConductTransaction frmConductTransaction = new ConductTransaction();
             frmConductTransaction.Visible = true;
         }
+
+        private void btnManageAccount_Click(object sender, EventArgs e)
+        {
+            ManageAccount frmManageAccount = new ManageAccount();
+            frmManageAccount.Visible = true;
+        }
     }
 }

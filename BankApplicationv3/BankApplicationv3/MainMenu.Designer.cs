@@ -77,6 +77,7 @@
             this.btnManageAccount.TabIndex = 3;
             this.btnManageAccount.Text = "Manage Current Account";
             this.btnManageAccount.UseVisualStyleBackColor = true;
+            this.btnManageAccount.Click += new System.EventHandler(this.btnManageAccount_Click);
             // 
             // BtnClose
             // 

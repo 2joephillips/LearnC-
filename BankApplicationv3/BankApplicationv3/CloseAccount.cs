@@ -65,14 +65,14 @@ namespace BankApplicationv3
             txtbxEmail.Text = account.Customer.Email.ToString();
             txtbxInitialBalance.Text = account.Balance.ToString();
             txtbxSSN.Text = account.Customer.SSN.ToString();
-            if (account.Status == "Savings")
+            if (account.Type == "Savings")
             {
                 this.lblMaturityDate.Visible = false;
                 this.lblRate.Visible = true;
                 this.txtbxRate.Visible = true;
                 this.txtBxMaturityDate.Visible = false;
             }
-            else if (account.Status == "CD")
+            else if (account.Type == "CD")
             {
                 this.lblMaturityDate.Visible = false;
                 this.lblRate.Visible = true;
@@ -86,6 +86,8 @@ namespace BankApplicationv3
                 this.txtbxRate.Visible = false;
                 this.txtBxMaturityDate.Visible = false;
             }
+            txtbxRate.Text = account.Rate.ToString();
+            txtBxMaturityDate.Text = account.Maturity.ToString();
         }
 
         private void btnCreateAccountClose_Click(object sender, EventArgs e)
