@@ -7,3 +7,5 @@ C:\Users\Phillips\Visual-Studio-C-\Account Simulator\Account Simulator\obj\x86\D
 C:\Users\Phillips\Visual-Studio-C-\Account Simulator\Account Simulator\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Phillips\Visual-Studio-C-\Account Simulator\Account Simulator\obj\x86\Debug\Account Simulator.exe
 C:\Users\Phillips\Visual-Studio-C-\Account Simulator\Account Simulator\obj\x86\Debug\Account Simulator.pdb
+C:\Users\Phillips\Documents\GitHub\Visual-Studio-C-\Account Simulator\Account Simulator\obj\x86\Debug\Account Simulator.exe
+C:\Users\Phillips\Documents\GitHub\Visual-Studio-C-\Account Simulator\Account Simulator\obj\x86\Debug\Account Simulator.pdb
